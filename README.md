@@ -1,6 +1,6 @@
 # 🛡️ Web Security Labs — POC Collection
 
-> **Author:** Aakash Singh  
+> **Author:** Aman Shaikh  
 > **Platform:** PortSwigger Web Security Academy + HAckviser  
 > **Status:** ✅ All Labs Solved  
 > **Purpose:** Proof of Concept (POC) reports for hands-on web application security labs
@@ -357,7 +357,7 @@ This repository contains detailed **Proof of Concept (POC) reports** for web app
 
 ## 👤 Author
 
-**Aakash Singh**  
+**Aman Shaikh**  
 Cybersecurity Enthusiast | Web Penetration Tester  
 
 ---
