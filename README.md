@@ -61,8 +61,8 @@ This repository contains detailed **Proof of Concept (POC) reports** for web app
 
 | # | Lab Name | Vulnerability | Report |
 |---|----------|---------------|--------|
-| 1 | **Live Chat Support — XSS via Bot Manipulation** | CSRF + XSS — Manipulated live chat bot via URL injection to change admin password | [📄 Report](HAckviser/csrf/Live%20chat%20support/report/Hackviser_LiveChatXSS_POC_AakashSingh.docx) |
-| 2 | **Price Change Attack — Money Transfer CSRF** | CSRF — Forged money transfer request via support link to steal funds | [📄 Report](HAckviser/csrf/Price%20change%20attack/Report/Hackviser_MoneyTransferCSRF_POC_AakashSingh.docx) |
+| 1 | **Live Chat Support — XSS via Bot Manipulation** | CSRF + XSS — Manipulated live chat bot via URL injection to change admin password | [📄 Report](HAckviser/csrf/Live%20chat%20support/report/Hackviser_LiveChatXSS_POC_AmanShaikh.docx) |
+| 2 | **Price Change Attack — Money Transfer CSRF** | CSRF — Forged money transfer request via support link to steal funds | [📄 Report](HAckviser/csrf/Price%20change%20attack/Report/Hackviser_MoneyTransferCSRF_POC_AmanShaikh.docx) |
 
 ---
 
@@ -70,9 +70,9 @@ This repository contains detailed **Proof of Concept (POC) reports** for web app
 
 | # | Lab Name | Vulnerability | Report |
 |---|----------|---------------|--------|
-| 1 | **Change Password Admin** | IDOR — Tampered user ID in password reset request to take over admin account | [📄 Report](HAckviser/IDOR/Change%20Password%20admni/report/Hackviser_ChangePasswordAdmin_POC_AakashSingh.docx) |
-| 2 | **Invoices** | IDOR — Changed invoice user ID to access another user's billing PDF | [📄 Report](HAckviser/IDOR/Invoices/Report/Hackviser_InvoicesIDOR_POC_AakashSingh.docx) |
-| 3 | **Price Manipulation** | IDOR — Modified ticket price parameter (300 → 1) during purchase | [📄 Report](HAckviser/IDOR/Price%20manuplate/report/Hackviser_PriceManipulation_POC_AakashSingh.docx) |
+| 1 | **Change Password Admin** | IDOR — Tampered user ID in password reset request to take over admin account | [📄 Report](HAckviser/IDOR/Change%20Password%20admni/report/Hackviser_ChangePasswordAdmin_POC_AmanShaikh.docx) |
+| 2 | **Invoices** | IDOR — Changed invoice user ID to access another user's billing PDF | [📄 Report](HAckviser/IDOR/Invoices/Report/Hackviser_InvoicesIDOR_POC_AmanShaikh.docx) |
+| 3 | **Price Manipulation** | IDOR — Modified ticket price parameter (300 → 1) during purchase | [📄 Report](HAckviser/IDOR/Price%20manuplate/report/Hackviser_PriceManipulation_POC_AmanShaikh.docx) |
 
 ---
 
@@ -80,8 +80,8 @@ This repository contains detailed **Proof of Concept (POC) reports** for web app
 
 | # | Lab Name | Vulnerability | Report |
 |---|----------|---------------|--------|
-| 1 | **CMD Injection Bypass** | OS Injection — Bypassed input filters to execute OS commands and retrieve hostname | [📄 Report](HAckviser/Os%20injection/CMD%20injection%20BYpass/report/Hackviser_CMDInjectionBypass_POC_AakashSingh.docx) |
-| 2 | **NSLookup Injection** | OS Injection — Chained NSLookup query with OS command to exfiltrate server data | [📄 Report](HAckviser/Os%20injection/NSlookup/report/Hackviser_NSLookup_CMDInjection_POC_AakashSingh.docx) |
+| 1 | **CMD Injection Bypass** | OS Injection — Bypassed input filters to execute OS commands and retrieve hostname | [📄 Report](HAckviser/Os%20injection/CMD%20injection%20BYpass/report/Hackviser_CMDInjectionBypass_POC_AmanShaikh.docx) |
+| 2 | **NSLookup Injection** | OS Injection — Chained NSLookup query with OS command to exfiltrate server data | [📄 Report](HAckviser/Os%20injection/NSlookup/report/Hackviser_NSLookup_CMDInjection_POC_AmanShaikh.docx) |
 
 ---
 
@@ -89,8 +89,8 @@ This repository contains detailed **Proof of Concept (POC) reports** for web app
 
 | # | Lab Name | Vulnerability | Report |
 |---|----------|---------------|--------|
-| 1 | **Basic SQL Injection** | SQLi — Used `' OR '1'='1` to bypass login and take over account | [📄 Report](HAckviser/SQL/Basic%20SQL/Report/Hackviser_BasicSQL_POC_AakashSingh.docx) |
-| 2 | **Boolean Blind SQL Injection** | Blind SQLi — Exploited stock manipulation endpoint using clusterbomb + boolean payloads | [📄 Report](HAckviser/SQL/BOOlean%20Bliend%20SQL/Report/Hackviser_BooleanBlindSQL_POC_AakashSingh.docx) |
+| 1 | **Basic SQL Injection** | SQLi — Used `' OR '1'='1` to bypass login and take over account | [📄 Report](HAckviser/SQL/Basic%20SQL/Report/Hackviser_BasicSQL_POC_AmanShaikh.docx) |
+| 2 | **Boolean Blind SQL Injection** | Blind SQLi — Exploited stock manipulation endpoint using clusterbomb + boolean payloads | [📄 Report](HAckviser/SQL/BOOlean%20Bliend%20SQL/Report/Hackviser_BooleanBlindSQL_POC_AmanShaikh.docx) |
 
 ---
 
@@ -144,8 +144,8 @@ This repository contains detailed **Proof of Concept (POC) reports** for web app
 
 | # | Lab Name | Vulnerability | Report |
 |---|----------|---------------|--------|
-| 1 | **CORS vulnerability with basic origin reflection** | CORS — Server reflected any Origin header; used to steal API keys via malicious page | [📄 Report](Post%20swigger%20labs/CORS%20(cross-origin%20request)/LAB%201/CORS_Lab1_BasicOriginReflection_POC_AakashSingh.docx) |
-| 2 | **CORS vulnerability with trusted null origin** | CORS — Exploited `null` origin trust using sandboxed iframe to exfiltrate data | [📄 Report](Post%20swigger%20labs/CORS%20(cross-origin%20request)/LAB%202/CORS_Lab2_NullOriginBypass_POC_AakashSingh.docx) |
+| 1 | **CORS vulnerability with basic origin reflection** | CORS — Server reflected any Origin header; used to steal API keys via malicious page | [📄 Report](Post%20swigger%20labs/CORS%20(cross-origin%20request)/LAB%201/CORS_Lab1_BasicOriginReflection_POC_AmanShaikh.docx) |
+| 2 | **CORS vulnerability with trusted null origin** | CORS — Exploited `null` origin trust using sandboxed iframe to exfiltrate data | [📄 Report](Post%20swigger%20labs/CORS%20(cross-origin%20request)/LAB%202/CORS_Lab2_NullOriginBypass_POC_AmanShaikh.docx) |
 
 ---
 
